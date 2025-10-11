@@ -1,0 +1,40 @@
+##🧠 50 Days of Coding: Java
+
+Welcome to my journey of mastering Java in 50 days! This repository documents daily progress, concepts learned, and hands-on practice as I explore the fundamentals and advanced topics of Java programming.
+
+## 📅 Day 1: Java Basics
+
+Today’s focus was on building a strong foundation with the core building blocks of Java. Here's what I covered:
+
+### ✅ Checklist
+1. **Java Variables**  
+   - Declaring and initializing variables  
+   - Understanding scope and naming conventions  
+   - Primitive vs reference types
+
+2. **Java Output**  
+   - Using `System.out.println()` and `System.out.print()`  
+   - Formatting output for readability  
+   - Escape sequences like `\n`, `\t`, etc.
+
+3. **Java Identifiers**  
+   - Rules for naming variables, methods, classes  
+   - Valid vs invalid identifiers  
+   - Best practices for naming conventions
+
+4. **Java Data Types**  
+   - Primitive types: `int`, `double`, `char`, `boolean`, etc.  
+   - Non-primitive types: Strings, Arrays, Classes  
+   - Type casting and type inference
+
+## 📘 Resources Used
+- online compiler(for today) 
+- College wallah Java Tutorial  
+- Java Programming by Example (PDF)
+
+## 🚀 What's Next
+Tomorrow, I’ll dive into:
+- Java Operators  
+- Input handling  
+- Basic control structures
+
