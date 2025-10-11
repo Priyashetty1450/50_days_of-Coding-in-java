@@ -1,0 +1,14 @@
+##java Code
+
+public class Main
+{
+	public static void main(String[] args) {
+		int age = 25;
+System.out.println("Age: " + age);
+
+double price = 19.99;
+char grade = 'A';
+boolean isAvailable = true;
+	}
+}
+
