@@ -1,0 +1,21 @@
+##Day 2 (Java Basics (Variables, Data Types, Loops, Conditional Statements))
+
+import java.util.Scanner;
+
+public class AP {
+
+public static void main(String[] args) {
+Scanner sc=new Scanner(System.in);
+System.out.println("enter the num:-");
+int a=sc.nextInt();
+int b=4;
+for(int i=1;i<=a;i++){
+System.out.println(b);
+b+=3;
+
+}
+}
+}
+## Resources Used
+SDE:-VS Code
+Resource:- Physics Wallah
