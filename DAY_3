@@ -1,0 +1,25 @@
+
+### 🚀 Day 3 Highlights – Java Basics
+
+- 🔹 **Variables**: Learned how variables store data and act as named memory locations in Java.
+- 🔹 **Identifiers**: Explored naming rules for variables—must begin with a letter, underscore `_`, or dollar sign `$`, and cannot use reserved keywords.
+- 🔹 **Primitive Data Types**: Studied Java's built-in types like:
+  - `int` – for integers
+  - `double` – for decimal numbers
+  - `char` – for single characters
+  - `boolean` – for true/false values
+- 🔹 **Type Safety**: Understood how Java enforces strict typing to prevent errors and ensure predictable behavior.
+- 🔹 **Declaration & Initialization**: Practiced declaring variables and assigning values using syntax like `int age = 25;`.
+- 🔹 **Memory Allocation**: Got insights into how different data types consume memory differently (e.g., `int` vs `long`).
+- 🔹 **Real-world Examples**: Applied concepts to simple programs like calculating age, toggling lights, and storing user initials.
+## CODE
+
+Public Class ED{
+public Static void main(String[] args){
+int a=6;-------------> Variable and Int Datatype 
+if(a%2==0){
+System.out.println("Even");
+}else{
+System.out.println("Odd");
+}
+}
