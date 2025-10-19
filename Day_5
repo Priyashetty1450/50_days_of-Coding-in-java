@@ -1,0 +1,42 @@
+
+
+### 📘 Day 5 – Java Basics Recap
+
+- 🔹 **Variables**: Containers used to store data values during program execution.
+- 🔹 **Identifiers**: Names assigned to variables, methods, classes, etc. Must follow rules:
+  - Begin with a letter, `_`, or `$`
+  - Cannot use Java reserved keywords (e.g., `class`, `int`)
+- 🔹 **Primitive Data Types**:
+  - `int` – stores integers (e.g., 10, -5)
+  - `float` / `double` – stores decimal numbers
+  - `char` – stores single characters (e.g., `'A'`)
+  - `boolean` – stores `true` or `false`
+- 🔹 **Type Declaration**: Syntax like `int age = 25;` defines both type and value.
+- 🔹 **Type Safety**: Java enforces strict typing to prevent mismatched operations.
+- 🔹 **Memory Usage**: Each data type consumes different memory (e.g., `int` = 4 bytes).
+- 🔹 **Best Practices**: Use meaningful identifiers and choose appropriate data types for clarity and efficiency.
+Last Day of this Basic Concept of java ! 
+import java.util.*;
+public class Main
+{
+    public static void printstring(String s,int n){
+        int m=s.length();
+        if(m==n){
+            System.out.println(s);
+            return;
+        }
+        if(m==0||s.charAt(m-1)=='0'){
+          	printstring(s+0,n);  
+          		printstring(s+1,n);
+        }else{
+            	printstring(s+0,n);  	
+        }
+        
+    }
+	public static void main(String[] args) {
+	Scanner sc = new Scanner(System.in);
+	System.out.println("Enter N : ");
+	int n=sc.nextInt();
+	printstring("",n);
+	}
+}
